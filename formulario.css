@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'maicra';
+    src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
+ }
+  .body{
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+.fieldset {
+border: solid;
+border-width: 4px;
+border-color: rgb(53, 32, 38);
+background-color:rgb(228, 152, 209) ;
+height: auto;
+width: auto;
+}
+.legendlabel {
+    font-family: 'maicra';
+background-color: rgb(53, 32, 38);
+color: rgb(228, 152, 209);
+text-align: center;
+}
+.label {
+font-family: 'maicra';   
+font-size: 20px;
+}
+.body1 {
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+.body2 {
+background-image:url(https://i.redd.it/getjr3xoyagb1.png);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.confirmacion {
+    font-family: 'maicra';
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+.cherry-log5 {
+    background-color: rgb(228, 152, 209);
+    border-bottom-style: solid;
+    border-bottom-width: 30px;
+    border-bottom-color: rgb(53, 32, 38);
+
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgb(53, 32, 38);
+
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgb(53, 32, 38);
+    
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-right-color: rgb(53, 32, 38); 
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 15px 0;
+    
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.volver  {
+    font-family: 'maicra';
+
+}

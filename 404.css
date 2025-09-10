@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'maicra';
+    src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
+ }
+.bodyerror {
+    background-image: url(./images/mc-error-page.jpg);
+    background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.errortext1 {
+    font-family: 'maicra';
+    color: rgb(234, 255, 255);
+    text-align: center;
+}
+.errortext2 {
+    font-family: 'maicra';
+    color: rgb(234, 255, 255);
+    text-align: center;
+}
+.errortext3 {
+    font-family: 'maicra';
+    color: rgb(234, 255, 255);
+    text-align: center;
+}
+.volver  {
+    font-family: 'maicra';
+     color: rgb(234, 255, 255);
+    text-align: center;
+}

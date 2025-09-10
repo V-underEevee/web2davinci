@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
+</head>
+<body class="body">
+    <form action="confirmacion.html">
+
+        <fieldset class="fieldset">
+            <legend class="legendlabel"><label class="label">Deseas ponerte en contacto con nosotros? Ingresa tus Datos Personales</label></legend>
+            
+            <label class="label">Nombre</label>
+            <input type="text" name="nombre" placeholder="Nombre" title="Campo Obligatorio" autofocus autocomplete="off" tabindex="1">
+            <label class="label">Apellido</label>
+            <input type="text" name="apellido" placeholder="Apellido" required title="Campo Obligatorio" autofocus autocomplete="off" tabindex="2">
+
+ <label for="mail" class="label">
+            Ingrese su correo electronico:
+           
+        </label>
+
+         <input type="text" name="mail" placeholder="no olvides el @" value=""
+         id="mail" required title="Campo Obligatorio" tabindex="3">
+
+
+
+        
+
+<label for="edad" class="label">
+Ingrese su edad:
+<input type="number" min="6" max="130" name="edad" id="edad" required title="Campo Obligatorio" tabindex="5">
+</label>
+
+
+
+<label class="label">Acepta los Terminos y Condiciones?
+    <input type="checkbox" name="acepta" id="" required title="Campo Obligatorio" tabindex="6">
+</label>
+
+
+
+
+
+
+
+
+<textarea name="mensaje" id="" cols="30" rows="3" tabindex="7"> </textarea>
+
+
+
+
+
+
+
+<button type="reset" tabindex="9" class="label">Borrar</button>
+
+<button type="submit" tabindex="10" class="label">Enviar datos</button>
+
+
+
+
+
+
+        </fieldset>
+
+
+       
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
