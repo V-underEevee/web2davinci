@@ -1,0 +1,380 @@
+
+@font-face {
+    font-family: 'maicra';
+    src: url(../fonts/minecraft/Minecraft.ttf) format(truetype);
+ }
+ .body{
+   background-image:url(https://i.redd.it/getjr3xoyagb1.png) ;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.divposter {
+    width: 100%;
+    max-width: 600px;
+    margin: 1.5rem auto 0;;
+}
+.poster {
+    
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+
+
+    
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(196, 140, 91);
+    border-top-color: rgb(118, 218, 114);
+    
+}
+@media (max-width: 600px) {
+    .poster {
+        border-width: 15px;
+    }
+}
+.poster2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+
+
+    
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(196, 140, 91);
+    border-top-color: rgb(118, 218, 114);
+}
+
+.cherry-log {
+    font-family: 'maicra';
+    display: block;
+    font-weight: normal;
+
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px 0;
+    width: 400px;
+    box-sizing: border-box;
+    height: 180px;
+    background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+
+    
+}
+.about,.reparto,.contacto {
+    
+    font-family: 'maicra';
+    display: block;
+    font-weight: normal;
+
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px 0;
+    width: 400px;
+    box-sizing: border-box;
+    height: 180px;
+    background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+}
+.title {
+  font-family: 'maicra';
+    width: fit-content;
+   padding: 20px;
+}
+
+.volver  {
+    font-family: 'maicra';
+    font-weight: normal;
+}
+.RE {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.trama {
+    font-family: 'maicra';
+    size-adjust: 50%;
+float: right;
+width: 50%; ;
+font-weight: normal;
+   background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+}
+.cherry-log1 {
+    font-family: 'maicra';
+    size-adjust: 60%;
+    display: inline-block;
+    width: 40%;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+
+     background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+}
+.cherry-log2, .cherry-log3, .cherry-log4 {
+    font-family: 'maicra';
+    
+    font-weight: normal;
+    padding: 5px 20px;
+    width: fit-content;
+
+     background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+
+    padding: 1rem 2rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px #e498d180;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cherry-log2:hover,
+.cherry-log3:hover,
+.cherry-log4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #e498d1cc;
+  cursor: pointer;
+}
+
+.lista1 {
+    font-family: 'maicra';
+    font-weight: normal;
+    float: left;
+    background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+}
+.lista2 {
+    font-family: 'maicra';
+    font-weight: normal;
+    float: right;
+    background-color: rgb(228, 152, 209);
+    border-style: solid;
+    border-width: 30px;
+    border-color: rgb(53, 32, 38);
+}
+
+main.mainflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ } 
+ @media (min-width: 768px) {
+  .main-links {
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .cherry-log1,
+  .cherry-log2,
+  .cherry-log3 {
+    width: 250px; 
+  }
+}
+ .main-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.main-links > div {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    text-align: center;
+    
+    border: 30px solid #352026;
+    box-shadow: 0 0 15px #7de3e3;
+    animation: brilloMinecraft 3s infinite;
+    transition: transform 0.3s ease;
+}
+
+.main-links > div:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.main-links a {
+    color: aliceblue;
+    font-family: 'maicra';
+    font-size: 20px;
+    text-decoration: none;
+}
+@keyframes brilloMinecraft {
+  0% {
+    box-shadow: 0 0 10px #cbf4f5, 0 0 20px #7de3e3;
+  }
+  50% {
+    box-shadow: 0 0 15px #cbf4f5, 0 0 30px #4b2a72;
+  }
+  100% {
+    box-shadow: 0 0 10px #cbf4f5, 0 0 20px #7de3e3;
+  }
+}
+
+.musica {
+    display: flex;     
+    flex-wrap: wrap;    
+    justify-content: center;     
+    gap: 1rem;     
+    padding: 1rem;     
+    background-color:#A1F0FF;     
+    border-radius: 10px;     
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    z-index: 9998;
+}
+.track {
+    display: flex;     
+    flex-direction: column;     
+    align-items: center;     
+    width: 100%;     
+    max-width: 250px;     
+    background-color: #cbf4f5e8;     
+    padding: 1rem;     
+    border-radius: 8px; 
+    position: relative;    
+    z-index: 9998;
+
+    border-bottom: 4px solid #18152b;  /* obsidiana oscuro */
+    box-shadow: 0 0 10px #7de3e3
+    ;       /* brillo azul beacon */
+    margin-bottom: 1rem;
+    border-bottom: 12px solid #241a36;
+    box-shadow:
+                0 0 8px #7de3e3,
+                0 4px 6px -2px #9460d1cc; /* glow violeta obsidiana */
+}
+
+.track h4 {
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+    font-family: 'maicra';
+    font-weight: normal;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #18152baa;
+    text-align: center;
+
+
+   
+}
+
+.track audio {
+    width: 100%;
+}
+.boton {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 2rem;
+    
+}
+/* .burger {
+   display: block; 
+   position: sticky;
+   top: 0;
+    right: -1000px;
+   background-color:rgb(228, 152, 209) ;
+
+}     */
+#panelhamburguesa {
+    height: 100vh;
+    width: 400px;
+    position: fixed;
+    top: 10vh;
+    right: -700px;
+    transition: right 1s ease;
+    z-index: 9999;
+	
+    background-color: rgba(0, 0, 0, 0.468) ;
+
+    background-size: 100% 100%;
+}
+#panelhamburguesa:target {
+    right: 0;
+}
+#cerrar {
+    display: none;
+}
+#panelhamburguesa:target ~ header nav #abrir {
+    display: none;
+}
+#panelhamburguesa:target ~ header nav #cerrar {
+    display: inline-block;
+}
+.header {
+    
+    background-color: rgb(196, 140, 91);
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: rgb(118, 218, 114);
+}.nav1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#panelhamburguesa nav {
+  background-color: #e498d1; /* rosa cerezo */
+  border: 30px solid #352026; /* borde oscuro */
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  max-width: 90%;
+  box-shadow:
+    0 0 8px 2px #9460d1cc,
+    inset 0 0 5px 1px #7de3e3cc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+#panelhamburguesa nav:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px #cbf4f5,
+    0 0 30px #4b2a72;
+  cursor: pointer;
+}
+#panelhamburguesa .RE {
+  display: inline-block;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+#panelhamburguesa .RE:hover {
+  transform: scale(1.05);
+}

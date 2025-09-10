@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <title>A Minecraft Movie</title>
-</head>
-<body class="body">
-     <h2 class="volver">Regresar al <a href="index.html"> Home</a></h2>
+<?php
+include_once("../componentes/header.php")
+
+?>
+
+
+    <main>
+
 
     <div class="cherry-log1"><h2>Quienes Somos</h2>
 
@@ -20,7 +16,10 @@ Fundada en 1923, tiene operaciones en cine, televisión y videojuegos y es uno d
 Warner Bros. incluye varias compañías subsidiarias, entre ellas Warner Bros. Pictures, Warner Bros. Studios, Warner Bros. Games, The CW, Warner Bros. Animation, Warner Bros. Pictures Animation, Warner Bros. Games, New Line Cinema, Castle Rock Entertainment, Dark Castle Entertainment, DC Comics, los remanentes de Cartoon Network Studios y Williams Street. Bugs Bunny, un personaje de dibujos animados creado para la serie Looney Tunes, es la mascota oficial de la compañía.
     </p></div>
 
-        <img src="./images/minecraft-movie.jpg" class="poster2">
+        <img src="../images/minecraft-movie.jpg" class="poster2">
+    </main>
 
-</body>
-</html>
+<?php
+include_once("../componentes/footer.php")
+
+?>

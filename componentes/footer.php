@@ -1,5 +1,4 @@
-   <footer>
-    <p>envie su formulario para ponerse en contacto con nosotros</p>
-   </footer>
-</body>
+
+    <footer><h2 class="volver">Regresar al <a href="index.php"> Home</a></h2></footer>
+  </body>
 </html>

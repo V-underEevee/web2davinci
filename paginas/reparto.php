@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon.png">
-    <title>A Minecraft Movie</title>
-</head>
-<body class="body">
-    <h2 class="volver">Regresar al <a href="index.html">Home</a></h2>
+<?php
+include_once("../componentes/header.php")
+
+?>
+<main>
+
+
 
     <div class="lista1"><h2>Reparto en Inglés</h2>
 
@@ -30,5 +26,9 @@
             (Doblada al español por BobbyCraft)</li></ul>
         <ul><li>Matt Berry como la voz de Nitwit</li></ul>
         <ul><li>Bret McKenzie como intérprete de Nitwit en el set</li></ul></div>
-</body>
-</html>
+
+        </main>
+<?php
+include_once("../componentes/footer.php")
+
+?>

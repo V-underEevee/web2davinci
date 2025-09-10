@@ -1,12 +1,12 @@
 <?php
-include_once("../componentes/header.php")
+include_once("../componentes/header.php");
 
 
 ?>
 
 
     <main>
-         <form action="confirmacion.html" <?php print $_SERVER['PHP_SELF']; ?> method="post" enctype="multipart/form-data">
+         <form action="confirmacion.php" <?php print $_SERVER['PHP_SELF']; ?> method="post" enctype="multipart/form-data">
 
         <fieldset class="fieldset">
             <legend class="legendlabel"><label class="label">Deseas ponerte en contacto con nosotros? Ingresa tus Datos Personales</label></legend>
@@ -48,8 +48,8 @@ Ingrese su edad:
 
 <textarea name="mensaje" id="" cols="30" rows="3" tabindex="7"> </textarea>
 
-<label for="Archivo">Adjuntar Archivo</label>
-<input type="file" name="archivo" id="archivo">
+<label class="archivo" for="archivo">Adjuntar Archivo</label>
+<input class="archivo" type="file" name="archivo" id="archivo">
 
 
 
@@ -85,8 +85,19 @@ Ingrese su edad:
 
         $temporal = $_FILES['archivo']['tmp_name'];
 
-        move_uploaded_file($temporal, "archivos/$nombre");
+        move_uploaded_file($temporal, "../archivos/$nombre");
+
+        print "
+        <figure>
+        <img src=../archivos/$nombre alt=$nombre>
+        </figure>
+        ";
     }
     ?>
     </main>
 
+<?php
+include_once("../componentes/footer.php");
+
+
+?>

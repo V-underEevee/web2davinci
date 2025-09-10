@@ -1,101 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./images/favicon.png" />
-    <title>A Minecraft Movie</title>
-  </head>
+<?php
+include_once("../componentes/header.php")
 
-  <body class="body">
-    <div id="panelhamburguesa">
-      <nav class="cherry-log">
-        <a href="intro.html" class="RE">Introduccion y Trama</a>
-      </nav>
-
-      <nav class="about">
-        <a href="acerca.html" class="RE">Quienes Somos</a>
-      </nav>
-
-      <nav class="reparto">
-        <a href="reparto.html" class="RE">Reparto</a>
-      </nav>
-
-      <nav class="contacto">
-        <a href="contacto.html" class="RE">Contacto</a>
-      </nav>
-    </div>
-
-    <header>
-      <div class="header">
-        <h1 class="title">UNA PELICULA DE MINECRAFT</h1>
-        <a href="">
-          
-      </div>
-      <nav class="nav1">
-        <a href="#panelhamburguesa" class="boton" id="abrir"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#1f1f1f"
-          >
-            <path
-              d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
-            /></svg></a>
-
-        <a href="#" class="boton" id="cerrar"><svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#1f1f1f"
-          >
-            <path
-              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 
-        56 56-224 224 224 224-56 56-224-224-224 224Z"
-            /></svg></a>
-      </nav>
-    </header>
-
+?>
     <main class="mainflex">
 
       
 
- <div class="divposter"><img src="./images/minecraft-movie.jpg" class="poster"></div>
+ <div class="divposter"><img src="../images/minecraft-movie.jpg" class="poster"></div>
 
 
         <div class="musica">
             <div class="track">
             <h4>Reproducir - Minecraft</h4>
-            <audio controls src="./musica/Minecraft.mp3"></audio>
+            <audio controls src="../musica/Minecraft.mp3"></audio>
             </div>
 
             <div class="track">
              <h4>Reproducir - Subwoofer Lullaby</h4>
-            <audio controls src="./musica/1-03. Subwoofer Lullaby.mp3"></audio>
+            <audio controls src="../musica/1-03. Subwoofer Lullaby.mp3"></audio>
 
 </div>
             <div class="track">
              <h4>Reproducir - Moog City 2</h4>
-            <audio controls src="./musica/Moog City 2.mp3"></audio>
+            <audio controls src="../musica/Moog City 2.mp3"></audio>
 </div>
 
             <div class="track">
              <h4>Reproducir - Haggstorm</h4>
-            <audio controls src="./musica/Haggstrom.mp3"></audio>
+            <audio controls src="../musica/Haggstrom.mp3"></audio>
 </div>
 
             <div class="track">
              <h4>Reproducir - Danny</h4>
-            <audio controls src="./musica/Danny.mp3"></audio>
+            <audio controls src="../musica/Danny.mp3"></audio>
 </div>
 
             <div class="track">
              <h4>Reproducir - Pigstep</h4>
-            <audio controls src="./musica/5 - Pigstep (Stereo Mix).mp3"></audio>
+            <audio controls src="../musica/5 - Pigstep (Stereo Mix).mp3"></audio>
 </div>
 
         </div>
@@ -103,6 +45,7 @@
 
     </main>
 
-    <footer></footer>
-  </body>
-</html>
+<?php
+include_once("../componentes/footer.php")
+
+?>

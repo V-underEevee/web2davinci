@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'maicra';
-    src: url(./fonts/minecraft/Minecraft.ttf) format(truetype);
+    src: url(../fonts/minecraft/Minecraft.ttf) format(truetype);
  }
 .bodyerror {
     background-image: url(./images/mc-error-page.jpg);
