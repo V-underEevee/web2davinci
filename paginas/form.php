@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="formulario.css">
-    <link rel="shortcut icon" href="./images/favicon.png">
-</head>
-<body class="body">
-    <form action="confirmacion.html">
+<?php
+include_once("../componentes/header.php")
+
+
+?>
+
+
+    <main>
+         <form action="confirmacion.html" <?php print $_SERVER['PHP_SELF']; ?> method="post" enctype="multipart/form-data">
 
         <fieldset class="fieldset">
             <legend class="legendlabel"><label class="label">Deseas ponerte en contacto con nosotros? Ingresa tus Datos Personales</label></legend>
             
             <label class="label">Nombre</label>
-            <input type="text" name="nombre" placeholder="Nombre" title="Campo Obligatorio" autofocus autocomplete="off" tabindex="1">
+            <input type="text" name="nombre" placeholder="Nombre" required title="Campo Obligatorio" autofocus autocomplete="off" tabindex="1">
             <label class="label">Apellido</label>
             <input type="text" name="apellido" placeholder="Apellido" required title="Campo Obligatorio" autofocus autocomplete="off" tabindex="2">
 
@@ -30,10 +28,10 @@
 
         
 
-<label for="edad" class="label">
+<!-- <label for="edad" class="label">
 Ingrese su edad:
 <input type="number" min="6" max="130" name="edad" id="edad" required title="Campo Obligatorio" tabindex="5">
-</label>
+</label> -->
 
 
 
@@ -50,7 +48,8 @@ Ingrese su edad:
 
 <textarea name="mensaje" id="" cols="30" rows="3" tabindex="7"> </textarea>
 
-
+<label for="Archivo">Adjuntar Archivo</label>
+<input type="file" name="archivo" id="archivo">
 
 
 
@@ -79,5 +78,15 @@ Ingrese su edad:
 
 
     </form>
-</body>
-</html>
+    <?php
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+        
+        $nombre = time(). ".jpg";
+
+        $temporal = $_FILES['archivo']['tmp_name'];
+
+        move_uploaded_file($temporal, "archivos/$nombre");
+    }
+    ?>
+    </main>
+
