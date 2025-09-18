@@ -20,9 +20,9 @@ include_once("../componentes/header.php");
             Ingrese su correo electronico:
            
         </label>
-
-         <input type="text" name="mail" placeholder="no olvides el @" value=""
-         id="mail" required title="Campo Obligatorio" tabindex="3">
+            <input type="mail" name="mail" placeholder="No olvides el @" value=""
+            id="mail" required title="Campo Obligatorio" tabindex="3">
+         
 
 
 
