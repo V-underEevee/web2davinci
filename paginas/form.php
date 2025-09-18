@@ -48,7 +48,7 @@ Ingrese su edad:
 
 <textarea name="mensaje" id="" cols="30" rows="3" tabindex="7"> </textarea>
 
-<label class="archivo" for="archivo">Adjuntar Archivo</label>
+<label class="archivo" for="archivo">Adjuntar Archivo (OPCIONAL)</label>
 <input class="archivo" type="file" name="archivo" id="archivo">
 
 
